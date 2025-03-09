@@ -11,12 +11,26 @@ class CommonAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      title: Text(
-        (isNotDisplaySchoolName) ? '******電子窓口' : '産業技術高専電子窓口',
-        style: TextStyle(
-          color: Colors.white,
-          fontWeight: FontWeight.bold,
-        ),
+      title: Row(
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: [
+          Text(
+            (isNotDisplaySchoolName) ? '******電子窓口' : '産業技術高専電子窓口',
+            style: TextStyle(
+              color: Colors.white,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          SizedBox(width: 5),
+          const Text(
+            '(非公式|デモ版)',
+            style: TextStyle(
+              color: Colors.white,
+              fontWeight: FontWeight.w400,
+              fontSize: 13
+            ),
+          ),
+        ],
       ),
       centerTitle: false,
       backgroundColor: Theme.of(context).primaryColor,

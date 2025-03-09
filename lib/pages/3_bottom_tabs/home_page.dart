@@ -45,7 +45,11 @@ class HomePageState extends State<HomePage> {
                 ),
                 // -------------------------------------------------------------------
                 // ----------------------------- タイトル -----------------------------
-                AppText(customText: (widget.isNotDisplaySchoolName) ? '******電子窓口' : '産技高専電子窓口'),
+                AppText(
+                  customText: (widget.isNotDisplaySchoolName)
+                    ? '******電子窓口\n(非公式|デモ版)'
+                    : '産技高専電子窓口\n(非公式|デモ版)'
+                  ),
                 // -------------------------------------------------------------------
 
                 const SizedBox(height: 10),

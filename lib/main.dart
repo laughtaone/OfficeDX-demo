@@ -41,7 +41,7 @@ class OfficeDX extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '電子窓口',
+      title: '産技高専電子窓口(非公式|デモ版)',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: 'NotoJP',

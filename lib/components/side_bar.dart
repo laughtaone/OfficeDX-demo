@@ -36,9 +36,10 @@ class SideBarState extends State<SideBar> {
               // ---------------------- タイトル -------------------------
               SizedBox(height: 50),
               AppText(
-                customText: (widget.isNotDisplaySchoolName) ? '******電子窓口' : '産技高専電子窓口',
+                customText: (widget.isNotDisplaySchoolName) ? '******電子窓口\n(非公式|デモ版)' : '産技高専電子窓口\n（非公式|デモ版）',
                 customColor: Colors.white,
-                customFontWeight: FontWeight.w500
+                customFontWeight: FontWeight.w500,
+                customFontSize: 18
               ),
               SizedBox(height: 15),
               Text(

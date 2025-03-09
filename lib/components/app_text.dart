@@ -4,14 +4,16 @@ class AppText extends StatelessWidget {
   const AppText({super.key,
     this.customColor,
     this.customFontWeight = FontWeight.w800,
-    this.customText = '産業技術高専電子窓口',
-    this.isNotDisplaySchoolName = false
+    this.customText = '産業技術高専電子窓口（非公式|デモ版）',
+    this.isNotDisplaySchoolName = false,
+    this.customFontSize = 20
   });
 
   final Color? customColor;
   final FontWeight customFontWeight;
   final String customText;
   final bool isNotDisplaySchoolName;
+  final double customFontSize;
 
 
   @override
@@ -21,7 +23,7 @@ class AppText extends StatelessWidget {
       style: TextStyle(
         color: (customColor != null) ? customColor : Theme.of(context).primaryColor,
         fontWeight: customFontWeight,
-        fontSize: 20
+        fontSize: customFontSize
       ),
     );
   }
