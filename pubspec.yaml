@@ -1,0 +1,86 @@
+name: office_dx
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  peanut: ^5.0.0
+  path_provider: ^2.1.4
+  file_picker: ^8.1.2
+  flutter_pdfview: ^1.3.4
+  open_filex: ^4.5.0
+  url_launcher: ^6.3.1
+  firebase_storage: ^12.3.1
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  auto_size_text: ^3.0.0
+  cloud_firestore: ^5.4.4
+  fuzzy: ^0.5.1
+  flutter_launcher_icons: ^0.14.2
+  shared_preferences: ^2.3.4
+  settings_ui: ^2.0.2
+  flutter_dotenv: ^5.2.1
+  dependency_validator: ^5.0.2
+  collection: ^1.19.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - images/tmcit_logo.jpg
+    - images/tmcit_logo.png
+    - images/doc_tile_explanation.png
+    - images/doc_tile_explanation_2.png
+    - images/qa_tile_explanation.png
+    - images/about_chat_not_ai.png
+    - images/about_system/about_system_1.png
+    - pdf/dummy_pdf_file.pdf
+    - pdf/旅行届.pdf
+    - pdf/証明書.pdf
+    - pdf/氏名変更届.pdf
+    - pdf/学生証再交付願.pdf
+    - pdf/住所・通学方法変更届.pdf
+    - pdf/旅行届_local.pdf
+    - fonts/
+
+  fonts:
+    - family: NotoJP
+      fonts:
+        - asset: fonts/NotoSansJP-Black.ttf
+          weight: 900
+        - asset: fonts/NotoSansJP-ExtraBold.ttf
+          weight: 800
+        - asset: fonts/NotoSansJP-Bold.ttf
+          weight: 700
+        - asset: fonts/NotoSansJP-SemiBold.ttf
+          weight: 600
+        - asset: fonts/NotoSansJP-Medium.ttf
+          weight: 500
+        - asset: fonts/NotoSansJP-Regular.ttf
+          weight: 400
+        - asset: fonts/NotoSansJP-Light.ttf
+          weight: 300
+        - asset: fonts/NotoSansJP-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/NotoSansJP-Thin.ttf
+          weight: 100
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "images/app_icon/app_icon_ios.png"
+  ios_icon: "images/app_icon/app_icon_ios.png"
+  android_icon: "images/app_icon/app_icon_android.png"

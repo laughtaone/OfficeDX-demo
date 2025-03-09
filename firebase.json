@@ -1,0 +1,41 @@
+{
+    "flutter": {
+        "platforms": {
+            "android": {
+                "default": {
+                    "projectId": "office-dx-ad8a3",
+                    "appId": "1:809457563710:android:8f02ddad185c54fa3bb96f",
+                    "fileOutput": "android/app/google-services.json"
+                }
+            },
+            "ios": {
+                "default": {
+                    "projectId": "office-dx-ad8a3",
+                    "appId": "1:809457563710:ios:7aaf92742ccc358f3bb96f",
+                    "uploadDebugSymbols": false,
+                    "fileOutput": "ios/Runner/GoogleService-Info.plist"
+                }
+            },
+            "macos": {
+                "default": {
+                    "projectId": "office-dx-ad8a3",
+                    "appId": "1:809457563710:ios:7aaf92742ccc358f3bb96f",
+                    "uploadDebugSymbols": false,
+                    "fileOutput": "macos/Runner/GoogleService-Info.plist"
+                }
+            },
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "office-dx-ad8a3",
+                    "configurations": {
+                        "android": "1:809457563710:android:8f02ddad185c54fa3bb96f",
+                        "ios": "1:809457563710:ios:7aaf92742ccc358f3bb96f",
+                        "macos": "1:809457563710:ios:7aaf92742ccc358f3bb96f",
+                        "web": "1:809457563710:web:c8569ad5dc68b5333bb96f",
+                        "windows": "1:809457563710:web:f9dc57aa7bb3457d3bb96f"
+                    }
+                }
+            }
+        }
+    }
+}
